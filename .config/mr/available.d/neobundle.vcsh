@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/neobundle.git]
+checkout = VCSH_BASE=~/.vim/bundle/neobundle.vim vcsh clone git@github.com:Shougo/neobundle.vim.git neobundle

@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/zsh-completion-generator.git]
+checkout = VCSH_BASE=~/.zsh/zsh-completion-generator vcsh clone git@github.com:RobSis/zsh-completion-generator.git zsh-completion-generator

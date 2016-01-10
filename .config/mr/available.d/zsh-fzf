@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/zsh-fzf.git]
+checkout = VCSH_BASE=~/.zsh/fzf vcsh clone git://github.com/junegunn/fzf zsh-fzf

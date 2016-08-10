@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/config.git]
-checkout = vcsh clone git://github.com:milkmiruku/dotconfig.git config
+checkout = vcsh clone git://github.com/milkmiruku/dotconfig.git config

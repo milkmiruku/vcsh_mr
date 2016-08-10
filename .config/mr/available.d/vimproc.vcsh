@@ -1,0 +1,8 @@
+[$HOME/.config/vcsh/repo.d/vimproc.git]
+checkout =
+  VCSH_BASE=~/.vim/bundle/vimproc.vim vcsh clone git://github.com/Shougo/vimproc.vim.git vimproc
+  if [[ ! -f ~/.vim/lib/vimproc_linux64.so ]]; then
+		cd ~/.vim/bundle/vimproc.vim
+		make
+		cp lib/vimproc_linux64.so ~/.vim/lib
+  fi
